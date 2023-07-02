@@ -25,7 +25,7 @@ Please note that this website currently only includes the front-end portion. How
 
 3. Install the required dependencies by running the following command:
 
-<pre><code>npm install</code></pre>
+<pre><code>yarn install</code></pre>
 
 4. Build and run the project:
 
