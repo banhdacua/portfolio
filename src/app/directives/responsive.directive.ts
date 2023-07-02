@@ -1,12 +1,11 @@
-import { Component, ElementRef } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
-@Component({
-  selector: 'app-reponsive',
-  templateUrl: './reponsive.component.html',
-  styleUrls: ['./reponsive.component.css']
+@Directive({
+  selector: '[appResponsive]'
 })
-export class ReponsiveComponent {
+export class ResponsiveDirective {
+
   constructor(private element: ElementRef, private breakpointObserver: BreakpointObserver) {
     this.breakpointObserver
     .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
@@ -28,4 +27,5 @@ export class ReponsiveComponent {
       }
     })
   }
+
 }
