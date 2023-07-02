@@ -16,12 +16,12 @@ Please note that this website currently only includes the front-end portion. How
 
 1. Clone the repository to your local machine using the following command:
 
-<pre><code>git clone https://github.com/your-username/portfolio-website.git
+<pre><code>git clone https://github.com/banhdacua/portfolio.git
 </code></pre>
 
 2. Navigate to the project directory:
 
-<pre><code>cd portfolio-website</code></pre>
+<pre><code>cd portfolio</code></pre>
 
 3. Install the required dependencies by running the following command:
 
