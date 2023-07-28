@@ -6,10 +6,12 @@ describe('WorkExperienceComponent', () => {
   let component: WorkExperienceComponent;
   let fixture: ComponentFixture<WorkExperienceComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [WorkExperienceComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ WorkExperienceComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(WorkExperienceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
